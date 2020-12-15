@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
+    text-align: center;
+  }
+  
+  .container {
+    position: relative;
+    margin: 20px 0px 40px 0px;
+    padding: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    width: 300px;
+    border: solid 2px gray;
+    height: 500px auto;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  .btn {
+    color: white;
+    font-size: large;
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    border: 0;
+    background: rgb(95, 137, 201);
+  }
+  
+  .inc-exp-container div{
+    border: solid 2px gray;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .money.plus {
+    font-size: large;
+    color: rgb(27, 199, 27);
+  }
+  
+  .money.minus {
+    font-size: large;
+    color: rgb(243, 60, 60);
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    text-align: left;
+    border: solid 2px gray;
+    margin: 20px 0px 20px 20px;
+    width: 90%;
+    padding: 2px 5px 2px 5px;
+  }
+  
+  li:hover .delete-btn{
+    display: inline-block;
+    background: red;
+    margin-right: 5px;
+  }
+  
+  .delete-btn {
+    width: auto;
+    display: none;
+    float: left;
+    background: rgb(243, 60, 60);
+    border: 0;
+    border-radius: 10%;
+    padding: 2px 4px;
+    color: white;
+  }
+  
+  
+  li.minus{
+    border-right: solid 4px rgb(243, 60, 60);
+  }
+  
+  li.plus{
+    border-right: solid 4px rgb(27, 199, 27);
+  }
+  
+  span{
+    float: right;
+  }
+  
+  label {
+    font-size: medium;
+  }
+  
+  input {
+    border: solid 1.2px black;
+    padding: 5px;
+    height: 30px;
+    width: 90%;
+  }
+  
